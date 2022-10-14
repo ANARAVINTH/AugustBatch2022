@@ -6,7 +6,7 @@ Feature: To Validate the login page of salesforce application
   @Apple
   Scenario: To Validate the login with valid us & pw
     When User enter the username "learn more" and password "123"
-    And User clicks the login button
+    And User clicks on the login button
     Then user navigates to the homepage
 
   @SmokeTest @Regession
